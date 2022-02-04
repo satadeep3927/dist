@@ -1,0 +1,18 @@
+.before-bg{
+    position: relative;
+}
+.before-bg::before{
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -99;
+    pointer-events: none;
+    background-image: var(--before-bg);
+    opacity: 0.1;
+}
