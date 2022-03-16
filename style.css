@@ -16,3 +16,10 @@
     background-image: var(--before-bg);
     opacity: 0.1;
 }
+.causes > div, .pattern{
+    background-image: url(/public/images/pattern.jpg);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
